@@ -62,20 +62,7 @@ hr {
 }
 
 
-/* Channel with unread messages */
-.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name,
-.p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name,
-.p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name,
-.p-channel_sidebar__section_heading_label--clickable:hover,
-.p-channel_sidebar__quickswitcher:hover {
-   color: var(--text-bright) !important;
-}
 
-/*broken*/
-__TODO-highlight-indicator {
-   background-color: var(--border-bright) !important;
-   opacity: 1;
-}
 
 #msgs_scroller_div::-webkit-scrollbar-track, .client_container,
 #search_terms, #footer, ts-message, .channel_header, ts-jumper ts-jumper-container,
