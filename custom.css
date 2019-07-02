@@ -46,7 +46,7 @@ body {
 }
 hr {
     border: 0;
-    border-bottom: 1px solid var(--background-elevated);
+    border-bottom: 1px solid var(--text);
 }
 
 .popover_mask {
@@ -222,11 +222,7 @@ li.active[class] span,
    border: 1px solid;
 }
 
-/* new scrollbar */
-.p-channel_sidebar div.c-custom_scrollbar__thumb_vertical, .p-channel_sidebar div.c-scrollbar__bar {
-  background: var(--background-elevated);
-  border: 1px solid var(--scrollbar-border);
-}
+
 
 #channels_scroller.show_which_channel_is_active[class] li.active .presence.active i.presence_icon,
 #channels_scroller.show_which_channel_is_active[class] li.active .slackbot_icon,
