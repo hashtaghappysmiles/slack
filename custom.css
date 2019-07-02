@@ -79,7 +79,6 @@ ts-jumper input[type="text"],
 }
 .p-message_pane__limited_history_foreword {	
     color: var(--text);
-	background: var(--background-elevated);
 }
 
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
@@ -97,7 +96,6 @@ ts-jumper input[type="text"],
 }
 
 .c-message_list__day_divider__label__pill {
-    background: var(--background-elevated);
     color: var(--text-bright);
 }
 .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name a, .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name span
@@ -118,13 +116,9 @@ ts-jumper input[type="text"],
 
 /* this styles only the brighter variant of attachment borders */
 .c-message_attachment__border[style="background-color: rgb(208, 208, 208)"], .c-message_attachment__border:not([style]) {
-	background-color: var(--background-elevated) !important;
 }
 
 
-.c-member_slug--link {
-    background: var(--background-elevated);
-}
 
 .channel_header, #col_messages, #footer {
    box-shadow: none;
@@ -285,8 +279,6 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 }
 
 textarea, input[type="text"], #file_comment_textarea {
-	background-color: var(--background-elevated) !important;
-   border-color: var(--border-dim) !important;
    color: var(--text) !important;
 }
 textarea:focus, input[type="text"]:focus, #file_comment_textarea {
@@ -332,9 +324,7 @@ ts-message .action_hover_container .btn_msg_action,
 #search_filters a,
 .menu,
 .menu #menu_items_scroller,
-.btn, .btn_outline {
-  background: var(--background-elevated) !important;
-}
+
 
 
 #flex_contents .heading,
@@ -415,8 +405,6 @@ ts-message .action_hover_container .btn_msg_action,
 
 .feature_name_tagging_client ts-message .mention, ts-message .mention,
 span.match {
-  border: 1px solid var(--border-bright) !important;
-  background-color: var(--background-elevated) !important;
   font-weight: bold;
   padding: 2px 4px;
   margin: 2px;
@@ -443,32 +431,6 @@ span.match {
    color: var(--text-special);
 }
 
-pre.special_formatting{
-  background: var(--background-elevated) !important;
-}
-
-code {
-  color: var(--text-special) !important;
-  background-color: var(--background-elevated) !important;
-  border-color: var(--border-dim) !important;
-}
-
-.supports_custom_scrollbar:not(.slim_scrollbar) #archive_msgs_scroller_div::-webkit-scrollbar-thumb,
-.supports_custom_scrollbar:not(.slim_scrollbar) #msgs_scroller_div::-webkit-scrollbar-thumb,
-.supports_custom_scrollbar:not(.slim_scrollbar) #col_channels:hover #channels_scroller::-webkit-scrollbar-thumb {
-   /* scrollbar draggy bit */
-  color: transparent !important;
-  border: 1px solid var(--scrollbar-border) !important;
-  background-color: transparent !important;
-}
-.supports_custom_scrollbar:not(.slim_scrollbar) #archive_msgs_scroller_div::-webkit-scrollbar-track,
-.supports_custom_scrollbar:not(.slim_scrollbar) #msgs_scroller_div::-webkit-scrollbar-track,
-.supports_custom_scrollbar:not(.slim_scrollbar) #col_channels:hover #channels_scroller::-webkit-scrollbar-track {
-   /* scrollbar endcaps */
-  color: transparent !important;
-  border: 1px solid var(--border-dim) !important;
-  background-color: transparent !important;
-}
 
 a, a:link, a:visited{
   color: var(--text-special);
