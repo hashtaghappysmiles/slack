@@ -185,57 +185,6 @@ ts-jumper input[type="text"],
     color: var(--text-special);
 }
 
-/* channel list */
-.p-channel_sidebar__channel,
-.p-channel_sidebar__link {
-  border-radius: 0 15px 15px 0;
-  height: 24px !important;
-}
-
-.p-channel_sidebar__channel a {
-  color: var(--text);
-}
-
-.p-channel_sidebar__channel--selected,
-.p-channel_sidebar__link--selected,
-.p-channel_sidebar__channel--selected:link,
-.p-channel_sidebar__link--selected:link,
-.p-channel_sidebar__channel--selected:visited,
-.p-channel_sidebar__link--selected:visited,
-.p-channel_sidebar__channel--selected:hover,
-.p-channel_sidebar__link--selected:hover {
-   background-color: var(--background) !important;
-   border: solid var(--border-bright);
-   border-width: 1px 1px 1px 0;
-}
-
-.p-channel_sidebar__channel:hover,
-.p-channel_sidebar__link:hover{
-   background-color: var(--background-hover) !important;
-   border-color: transparent;
-   color: var(--text) !important;
-   height: 24px !important;
-}
-
-.p-channel_sidebar__close_container {
-   background: none !important;
-}
-
-.p-channel_sidebar__channel--selected:hover,
-.p-channel_sidebar__link--selected:hover {
-   border: solid var(--border-dim);
-   border-width: 1px 1px 1px 0;
-}
-
-/*broken*/
-li.active[class] span,
-#channels_scroller.show_which_channel_is_active[class] ul li.active .primary_action .prefix,
-#channels_scroller.show_which_channel_is_active[class] ul li.active .primary_action,
-#channels_scroller.show_which_channel_is_active[class] ul li.active .primary_action.im_name > *:not(.unread_highlights) {
-   color: var(--text-special) !important;
-   background-color: transparent;
-   opacity: 1;
-}
 
 /*"more unreads" bottom*/
 .p-channel_sidebar__banner--top {
